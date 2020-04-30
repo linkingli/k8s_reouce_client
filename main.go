@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	//get pods in ns by args
+	//get pods in ns by args by https
 	var namespaceUser string
 	flag.StringVar(&namespaceUser,"ns","default","namespace")
 	flag.Parse()
