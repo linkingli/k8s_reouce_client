@@ -19,6 +19,10 @@ k8s version:
   Client Version: v1.14.7
   Server Version: v1.14.7
 ```
+ca and token 
 ```
-ca.crt token获取路径: sa in pod:/var/run/secrets/kubernetes.io/serviceaccount
+kubectl exec -it  poName -n nsName  /bin/sh
+TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
+CA=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
+
 ```
