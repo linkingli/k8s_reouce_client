@@ -1,4 +1,4 @@
-# k8s client
+# k8s resouce client
 
 linux
 ```
@@ -10,6 +10,7 @@ mac
 ./package  -n istio-system
 ```
 
+version
 ```
 k8s version:
   Client Version: v1.11.0+d4cacc0
