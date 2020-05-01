@@ -7,7 +7,7 @@ GOOS=linux;GOARCH=amd64
 ```
 mac
 ```
-./package  -n istio-system
+./package  -ns istio-system
 ```
 
 version
