@@ -1,11 +1,11 @@
 # k8s client
 
-###linux
+linux
 ```
 GOOS=linux;GOARCH=amd64
 ./go_build_main_go_linux  -ns kube-system
 ```
-###mac
+mac
 ```
 ./package  -n istio-system
 ```
