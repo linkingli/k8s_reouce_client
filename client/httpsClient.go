@@ -9,7 +9,11 @@ import (
 	"log"
 )
 
-func GetClient(tokenPath, caPath, masterUrl string) *kubernetes.Clientset {
+func GetClient() *kubernetes.Clientset {
+
+	tokenPath := "conf/token"
+	caPath := "conf/ca.crt"
+	masterUrl := "127.0.0.1:31354"
 	token, err := ioutil.ReadFile(tokenPath)
 	if err != nil {
 		fmt.Println(err)
