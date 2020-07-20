@@ -28,4 +28,5 @@ CA=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
 ```
 ```
 kubeconfig 连接
+https://www.cnblogs.com/jokerjason/p/11898428.html
 ```
