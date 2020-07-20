@@ -26,3 +26,6 @@ TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
 CA=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
 
 ```
+```
+kubeconfig 连接
+```
