@@ -34,3 +34,8 @@ https://www.cnblogs.com/jokerjason/p/11898428.html
 golang文件追加覆盖
 https://www.cnblogs.com/kumata/p/10161754.html
 ```
+
+```
+ssh传输文件
+https://www.cnblogs.com/-xuzhankun/p/11056576.html
+```
